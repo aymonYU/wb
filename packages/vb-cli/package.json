@@ -1,0 +1,25 @@
+{
+  "name": "vb-cli",
+  "version": "1.0.0",
+  "description": "vb cli tools",
+  "main": "index.js",
+  "bin": {
+    "vb-cli": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "engines": {
+    "node": ">=8.0"
+  },
+  "author": "aymonyu",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.17.1",
+    "semver": "^5.5.1"
+  }
+}

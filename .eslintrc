@@ -1,0 +1,18 @@
+{
+    "env": {
+        "node": true,
+        "jest": true
+    },
+    "extends": [
+        "rem",
+        "plugin:prettier/recommended"
+    ],
+    "rules": {
+        "comma-dangle": [2, "always-multiline"],
+        "no-var": "error",
+        "no-unused-vars": "warn"
+    },
+    "parserOptions": {
+        "ecmaVersion": 6
+    }
+}

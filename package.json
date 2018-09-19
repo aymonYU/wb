@@ -1,0 +1,19 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "site": "vuepress dev website",
+    "lint": "eslint --fix packages/*"
+  },
+  "workspaces": [
+    "packages/**/*"
+  ],
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^3.0.1",
+    "eslint-config-rem": "^4.0.0",
+    "eslint-plugin-prettier": "^2.6.2",
+    "lerna": "^3.0.0-rc.0",
+    "vuepress": "^0.14.4"
+  }
+}
